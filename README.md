@@ -31,7 +31,7 @@ git add -A && git commit -m "chore: bootstrap from swayloop/template-node"
 | `release-please-config.json`, `.release-please-manifest.json` | 릴리즈 자동화 |
 | `.github/workflows/release-please.yml` | org reusable 호출 |
 | `.github/workflows/auto-close-issues.yml` | org reusable 호출 |
-| `.github/workflows/claude-*.yml` | org reusable 호출 |
+| `.github/workflows/claude-mention.yml` | `@claude` 멘션 응답 (org reusable) |
 | `.github/workflows/ci.yml` | lint/build/test (스크립트 있을 때만 실행) |
 
 ## 표준
