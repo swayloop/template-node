@@ -1,6 +1,6 @@
 {
   "name": "swayloop-app",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "TODO: 한 줄 설명",
   "private": true,
   "scripts": {
@@ -16,5 +16,6 @@
     "@commitlint/config-conventional": "^20.4.3",
     "@swayloop/commitlint-config": "^0.2.0",
     "husky": "^9.1.7"
-  }
+  },
+  "prettier": "@swayloop/prettier-config"
 }

@@ -1,6 +1,6 @@
 # swayloop-template-node
 
-swayloop org 의 Node 프로젝트 부트스트랩 템플릿. husky + commitlint + release-please + reusable workflows 가 미리 셋업되어 있습니다.
+swayloop org 의 Node 프로젝트 부트스트랩 템플릿. husky + commitlint + release-please + reusable workflows + Tier 1 공통 config (tsconfig / eslint / prettier) 가 미리 셋업되어 있습니다.
 
 ## 새 프로젝트로 시작하기
 
@@ -27,6 +27,9 @@ git add -A && git commit -m "chore: bootstrap from swayloop/template-node"
 | `.husky/pre-push` | 브랜치 네이밍 규칙 강제 |
 | `.husky/pre-commit` | (스텁) 프로젝트 lint/format 추가 |
 | `commitlint.config.js` | `@swayloop/commitlint-config` extend |
+| `tsconfig.json` | `@swayloop/tsconfig-base` extend |
+| `eslint.config.js` | `@swayloop/eslint-config` extend |
+| `package.json` `prettier` 필드 | `@swayloop/prettier-config` 사용 |
 | `.nvmrc` | Node 20 |
 | `release-please-config.json`, `.release-please-manifest.json` | 릴리즈 자동화 |
 | `.github/workflows/release-please.yml` | org reusable 호출 |
